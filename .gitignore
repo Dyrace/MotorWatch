@@ -28,3 +28,22 @@ Thumbs.db
 # Archivos temporales
 *.log
 *.tmp
+
+
+
+
+
+# Dependencias y compilación
+node_modules/
+**/.pio/
+dist/
+
+# Configuración local de VS Code
+**/.vscode/
+
+# Credenciales y base de datos
+.env
+.env.*
+!.env.example
+*device-token*.txt
+*.sqlite
