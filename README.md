@@ -32,3 +32,6 @@ Se crea automáticamente `server/data/motorwatch.sqlite` usando SQLite vía `sql
 
 ## Limitaciones
 La simulación sigue generando lecturas desde el navegador; el ESP32 aún no está conectado. El historial visible muestra hasta 100 lecturas recientes. No hay autenticación: úsalo solo en una red privada de confianza para pruebas; no publiques el servidor en Internet. La fórmula de vibración es un indicador simplificado y el sistema todavía no es un modelo predictivo.
+
+## Simulacion Wokwi
+La simulación Wokwi utiliza PlatformIO. Para ejecutarla es necesario compilar el proyecto, configurar el token privado de autenticación y disponer de un servidor MotorWatch activo en el puerto 3001.
