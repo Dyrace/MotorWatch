@@ -1,0 +1,30 @@
+
+# Dependencias
+node_modules/
+
+# Archivos generados
+dist/
+.vite/
+coverage/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+*device-token*.txt
+*secret*.txt
+
+# Base de datos local y datos personales
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
